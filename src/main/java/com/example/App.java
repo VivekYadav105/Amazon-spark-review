@@ -13,7 +13,7 @@ import org.apache.spark.sql.Row;
 import org.apache.spark.sql.SparkSession;
 import org.apache.spark.SparkConf;
 import org.apache.spark.api.java.JavaSparkContext;
-import com.example.RegressionApproach;
+// import com.example.RegressionApproach;
 
 public class App {
     public static void main(String[] args) {
@@ -70,7 +70,7 @@ public class App {
         predictions.select("asin", "prediction").show();
 
         //logistic approach
-        Dataset<Row> logisticPredictions = RegressionApproach(featurizedData);
+        // Dataset<Row> logisticPredictions = RegressionApproach(featurizedData);
         
         // Stop the Spark session
         spark.stop();
