@@ -9,7 +9,6 @@ Analyzing Amazon product reviews using Apache Spark and MLlib with Logistic Regr
 - [Prerequisites](#prerequisites)
 - [How to Run](#how-to-run)
 - [Results](#results)
-- [License](#license)
 
 ## Overview
 
@@ -37,3 +36,23 @@ List any prerequisites that are required to run the project. This may include so
    ```bash
    git clone https://github.com/your-username/amazon-spark-review-analysis.git
    cd amazon-spark-review-analysis
+2. Download the dataset from (here)[https://drive.google.com/file/d/1TQz6oI5T-JEDuLeV4DvFNEsQk23kXsVA/view?usp=drive_link]
+3. extract the dataset and paste it in `\src\main\resources`
+4. Make sure that the name of json dataset is cloths.json
+5. Build the project using the Maven Wrapper:
+
+   ```bash
+   ./mvnw clean package
+   ```
+   If you're on Windows, use:
+   ```bash
+   ./mvnw.cmd clean install
+6. Execute the project
+   ```bash
+   ./mvnw exec:java
+   ```
+   If you're on Windows, use:
+     ```bash
+     ./mvnw.cmd exec:java
+
+## results
