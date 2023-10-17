@@ -37,30 +37,3 @@ List any prerequisites that are required to run the project. This may include so
    ```bash
    git clone https://github.com/your-username/amazon-spark-review-analysis.git
    cd amazon-spark-review-analysis
-   ```
-
-2. Build the project using Maven:
-
-   ```bash
-   mvn clean install
-   ```
-
-3. Run the project:
-
-   ```bash
-   mvn exec:java
-   ```
-
-   Add any additional instructions or configurations needed to run the project successfully.
-
-## Results
-
-Include details about the expected results or outcomes of running the project.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE.md) - see the [LICENSE.md](LICENSE.md) file for details.
-
----
-
-Feel free to further customize the README to provide more specific details about the Spark MLlib implementation or any other relevant information.
