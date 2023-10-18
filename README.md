@@ -25,9 +25,9 @@ Amazon Spark Review Analysis is a project that leverages Apache Spark and its in
 
 List any prerequisites that are required to run the project. This may include software installations, dependencies, or other configurations.
 
-- Apache Spark [Link to Installation Guide](spark-installation-guide)
-- Apache Maven [Link to Installation Guide](maven-installation-guide)
-- Java (OpenJDK 11) [Link to Installation Guide](java-installation-guide)
+- Apache Spark [link to installation guide](https://spark.apache.org/docs/latest/)
+- Apache Maven [Link to Installation Guide](https://maven.apache.org/index.html)
+- Java (OpenJDK 11) [Link to Installation Guide](https://openjdk.org/install/)
 
 ## How to Run
 
@@ -36,8 +36,8 @@ List any prerequisites that are required to run the project. This may include so
    ```bash
    git clone https://github.com/your-username/amazon-spark-review-analysis.git
    cd amazon-spark-review-analysis
-2. Download the dataset from [https://drive.google.com/file/d/1TQz6oI5T-JEDuLeV4DvFNEsQk23kXsVA/view?usp=drive_link](here)
-3. Download the spark binaries form [https://dlcdn.apache.org/spark/spark-3.5.0/spark-3.5.0-bin-hadoop3.tgz](here)
+2. Download the dataset from [here](https://drive.google.com/file/d/1TQz6oI5T-JEDuLeV4DvFNEsQk23kXsVA/view?usp=drive_link)
+3. Download the spark binaries form [here](https://dlcdn.apache.org/spark/spark-3.5.0/spark-3.5.0-bin-hadoop3.tgz)
 4. Add the SPARK_HOME variable to path with the value as root spark directory
 5. Add the bin folder to the path
 6. extract the dataset and paste it in `\src\main\resources`
@@ -59,4 +59,4 @@ List any prerequisites that are required to run the project. This may include so
      ./mvnw.cmd exec:java
 
 ## Report
-To view the report click [https://drive.google.com/file/d/1GTX68JZqmDmbsUYmgKLEyN13n9fPQB8X/view?usp=sharing](here) 
+To view the report click [here](https://drive.google.com/file/d/1GTX68JZqmDmbsUYmgKLEyN13n9fPQB8X/view?usp=sharing)
