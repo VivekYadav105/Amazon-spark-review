@@ -8,7 +8,7 @@ Analyzing Amazon product reviews using Apache Spark and MLlib with Logistic Regr
 - [Tech Stack](#tech-stack)
 - [Prerequisites](#prerequisites)
 - [How to Run](#how-to-run)
-- [Results](#results)
+- [Report](#report)
 
 ## Overview
 
@@ -55,5 +55,5 @@ List any prerequisites that are required to run the project. This may include so
      ```bash
      ./mvnw.cmd exec:java
 
-## report
+## Report
 To view the report (click here)[https://drive.google.com/file/d/1GTX68JZqmDmbsUYmgKLEyN13n9fPQB8X/view?usp=sharing]
