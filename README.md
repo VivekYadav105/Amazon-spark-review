@@ -36,10 +36,13 @@ List any prerequisites that are required to run the project. This may include so
    ```bash
    git clone https://github.com/your-username/amazon-spark-review-analysis.git
    cd amazon-spark-review-analysis
-2. Download the dataset from (here)[https://drive.google.com/file/d/1TQz6oI5T-JEDuLeV4DvFNEsQk23kXsVA/view?usp=drive_link]
-3. extract the dataset and paste it in `\src\main\resources`
-4. Make sure that the name of json dataset is cloths.json
-5. Build the project using the Maven Wrapper:
+2. Download the dataset from [https://drive.google.com/file/d/1TQz6oI5T-JEDuLeV4DvFNEsQk23kXsVA/view?usp=drive_link](here)
+3. Download the spark binaries form [https://dlcdn.apache.org/spark/spark-3.5.0/spark-3.5.0-bin-hadoop3.tgz](here)
+4. Add the SPARK_HOME variable to path with the value as root spark directory
+5. Add the bin folder to the path
+6. extract the dataset and paste it in `\src\main\resources`
+7. Make sure that the name of json dataset is cloths.json
+8. Build the project using the Maven Wrapper:
 
    ```bash
    ./mvnw clean package
@@ -47,7 +50,7 @@ List any prerequisites that are required to run the project. This may include so
    If you're on Windows, use:
    ```bash
    ./mvnw.cmd clean install
-6. Execute the project
+9. Execute the project
    ```bash
    ./mvnw exec:java
    ```
@@ -56,4 +59,4 @@ List any prerequisites that are required to run the project. This may include so
      ./mvnw.cmd exec:java
 
 ## Report
-To view the report (click here)[https://drive.google.com/file/d/1GTX68JZqmDmbsUYmgKLEyN13n9fPQB8X/view?usp=sharing]
+To view the report click [https://drive.google.com/file/d/1GTX68JZqmDmbsUYmgKLEyN13n9fPQB8X/view?usp=sharing](here) 
